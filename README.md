@@ -1,4 +1,4 @@
-## Test harness for Boxes app websocket features
+## Websocket notification component for an app 
 The code contains 2 handlers WSHandle and WSNotifications, also the code for OnlineHub and Notification clients. 
 
 WsHandler:  It creates a NotificationClient and adds it to the NotificationPools map (it does not start any goroutines)
